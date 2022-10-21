@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+h1, h2 {
+    color: white;
+}
+
+/*How do we do*/
+
+#main {
+    background-color: hsl(213, 19%, 18%);
+    width: 250px;
+    margin: 15% auto 15% auto;
+    border-radius: 15px;
+   padding: 3%;
+   position: relative;
+}
+
+.icon-star {
+    border-radius: 50%;
+    background-color:hsl(213, 19%, 18%);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    width: 15px;
+    padding: 4%;
+}
+
+.main-text,
+.selected-text  {
+    color: hsl(216, 12%, 54%);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    border-radius: 50%;
+    padding: 1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    background-color: hsl(213, 19%, 18%);
+    color:hsl(216, 12%, 54%) ;
+    border: none;
+    margin-right: 5%;
+}
+
+.btn:hover {
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+.submit {
+    display: block;
+    margin: 10% 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+
+.submit:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+/*Thank U*/
+
+.selected {
+    text-align: center;
+    display: none;
+}
+
+.image-text {
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    background-color: hsl(213, 19%, 18%);
+    width: 160px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 2% 0;
+    color:hsl(25, 97%, 53%);
+    text-align: center;
+    margin: auto;
+}
+
+.thank-u {
+    padding-bottom: 5%;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
